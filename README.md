@@ -6,9 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,11 +19,15 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Role Configuration
+- Department Configuration
+- Team Configuration
+- Ticket Creation Permissions
+- Agent Configuration
+- User Configuration
+- SLA Configuration
+- Help Topics Configuration
+
 
 <h2>Configuration Steps</h2>
 
@@ -34,22 +35,73 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+1. Role Configuration:
+Navigate to Admin Panel -> Agents -> Roles.
+Establish the "Supreme Admin" role.</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+2. Department Configuration:
+Go to Admin Panel -> Agents -> Departments.
+Configure the "System Administrators" department.</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3. Team Configuration:
+Access Admin Panel -> Agents -> Teams.
+Create "Level I Support" and "Level II Support" teams.</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+4. Ticket Creation Permissions:
+Enable ticket creation for all users:
+Access Admin Panel -> Settings -> User Settings.
+Set "Registration Required" to require registration and login for ticket creation.</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+5. Agent Configuration:
+Access Admin Panel -> Agents -> Add New.
+Add agents "Jane" and "John".</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+6. User Configuration:
+Navigate to Agent Panel -> Users -> Add New.
+Add users "Karen" and "Ken".</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+7. SLA Configuration:
+Access Admin Panel -> Manage -> SLA.
+Define SLA levels:
+Sev-A: 1 hour response time, 24/7 availability.
+Sev-B: 4 hours response time, 24/7 availability.
+Sev-C: 8 hours response time, business hours availability.</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+8. Help Topics Configuration:
+Go to Admin Panel -> Manage -> Help Topics.</p>
 <br />
