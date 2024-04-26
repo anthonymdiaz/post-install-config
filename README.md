@@ -129,7 +129,16 @@ Add users "Karen" and "Ken".</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  ![image](https://github.com/anthonymdiaz/post-install-config/assets/167942930/f37be153-df3a-4a04-b78a-c7ae065dca0f)
+  
+  ![image](https://github.com/anthonymdiaz/post-install-config/assets/167942930/eda03e54-0261-4690-ac23-d3a2d446df74)
+  
+  ![image](https://github.com/anthonymdiaz/post-install-config/assets/167942930/c493d9ba-c498-4c13-98e1-420ecc310e64)
+  
+  ![image](https://github.com/anthonymdiaz/post-install-config/assets/167942930/60730c6b-b4c8-4d2e-8f79-2a21aa96a547)
+
+
 </p>
 <p>
 7. SLA Configuration:
@@ -141,9 +150,30 @@ Sev-C: 8 hours response time, business hours availability.</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  ![image](https://github.com/anthonymdiaz/post-install-config/assets/167942930/3cf50890-3105-4494-a745-8e26e61d88a5)
+
+
 </p>
 <p>
 8. Help Topics Configuration:
 Go to Admin Panel -> Manage -> Help Topics.</p>
+
+- Add more Help Topics as needed
+
+
+- Example of Help Topics to add
+
+
+1. Business Critical Outage
+
+
+2. Personal Computer Issues
+
+
+3. Equipment Request
+
+
+4. Password Reset
+
 <br />
